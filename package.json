@@ -1,7 +1,8 @@
 {
-  "name": "simple-nextjs-site",
+  "name": "motorcycles-nextjs-ssg-ssr",
   "version": "0.1.0",
   "private": true,
+  "author": "Arcbjorn",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
