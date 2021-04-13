@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import styles from '../../styles/Motorcycles.module.css'
 
 import Head from 'next/head'
 
@@ -10,7 +11,9 @@ export default function Motorcycle({ motorcycle }) {
         <Head>
             <title>{motorcycle.color} {motorcycle.id}</title>
         </Head>
-        <h1>Here is {id}</h1>
+        <div className={styles.title}>
+            <h1>Here is {id}</h1>
+        </div>
         <img src={motorcycle.image} />
     </>)
 }
